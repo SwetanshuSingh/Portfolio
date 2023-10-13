@@ -1,0 +1,114 @@
+.Projects{
+    padding: 100px 250px;
+    background-color: #F9F9F9;
+}
+
+.Projects h4{
+    color: #147EFB;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.Projects h3{
+    color: #2D2E32;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.Projects .project-one{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.one-img-area a img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+}
+
+.one-text-area{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: center;
+}
+
+.one-text-area h4{
+    color: #2D2E32;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.one-text-area p{
+    color: #767676;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.one-text-area .tech {
+    background-color: white;
+    margin: 0 5px;
+    padding:  10px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: 500;
+}
+
+.one-text-area .links{
+    margin-top: 40px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #2D2E32;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.links a i{
+    font-size: 1.5rem;
+}
+
+.links a:hover{
+    color: #147EFB;
+}
+
+/* Responsive Breakpoint */
+
+@media (max-width : 1020px){
+    .Projects{
+        margin-top: 5rem;
+        padding: 20px 40px;
+        text-align: center;
+    }
+
+    .Projects .project-one{
+        flex-direction: column !important;
+        gap: 2rem;
+    }
+
+    .one-text-area p{
+        text-align: center;
+    }
+
+    .links a{
+        font-size: 0.8rem;
+    }
+}
+
+/* Responsive Brekpoint 2 */
+
+@media(max-width : 420px){
+    .one-text-area p{
+        text-align: justify;
+    }
+}
