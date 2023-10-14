@@ -1,0 +1,41 @@
+.Footer{
+    padding: 60px 250px;
+    background-color: #2D2E32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer h4{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.socials a i{
+    font-size: 1.9rem;
+    display: inline-block;   
+    transition: 0.2s ease-in;
+}
+
+.socials a i:hover{
+    transform: scale(1.4);
+}
+
+@media(max-width : 820px){
+    .Footer{
+        padding: 60px 30px;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .Footer h4{
+        font-size: 1rem;
+    }
+}

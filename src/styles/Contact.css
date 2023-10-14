@@ -1,0 +1,101 @@
+.Contact{
+    padding: 100px 250px;
+    width: 100%;
+    background-color: white;
+}
+
+.contact-title h4{
+    color: #147EFB;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-title h3{
+    color: #2D2E32;
+    font-size: 1.5rem;
+}
+
+.wrapper{
+    display: flex;
+    gap: 5rem;
+}
+
+.contact-icon-box{
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-icon-box .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.icon a{
+    text-decoration: none;
+    color: #147EFB;
+}
+
+.icon a i{
+    font-size: 35px;
+}
+
+.text-area h5{
+    color: #2D2E32;
+    font-size: 1.1rem;
+}
+
+.text-area p{
+    color: gray;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.text-area p:hover{
+    color: #147EFB;
+}
+
+/* Responsive BreakPoint */
+
+@media (max-width : 420px){
+    .Contact{
+        padding: 40px 60px;
+    }
+
+    .contact-title{
+        text-align: center;
+        width: 100%;
+    }
+
+    .contact-title h4{
+        font-size: 0.8rem;
+    }
+
+    .contact-title h3{
+        font-size: 1.2rem;
+    }
+
+    .wrapper{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-icon-box{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media ( min-width : 500px) and (max-width : 820px){
+    .Contact{
+        padding: 80px 160px;
+    }
+}

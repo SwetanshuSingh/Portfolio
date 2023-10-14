@@ -8,8 +8,8 @@ export default function Home(){
                     <h1>Front-End <br/> Developer</h1>
                     <p>Hi, I am Swetanshu Singh. A passionate Front-end <br/> Developer based in Jaipur, Rajasthan.</p>
                     <span className="icons">
-                    <i class="ri-linkedin-box-line"></i>
-                    <i class="ri-github-line"></i>
+                    <a href="https://www.linkedin.com/in/swetanshu-singh-a06642226/"><i class="ri-linkedin-box-line"></i></a>
+                    <a href="https://github.com/SwetanshuSingh"><i class="ri-github-line"></i></a>
                     </span>
                 </div>
                 <div className="main-img-area">
