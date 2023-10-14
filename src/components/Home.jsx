@@ -13,7 +13,7 @@ export default function Home(){
                     </span>
                 </div>
                 <div className="main-img-area">
-                    <img src="/images/profile2.JPG" alt="profile" />
+                    <img src="/images/profile3.jpg" alt="profile" />
                 </div>
             </div>
 
