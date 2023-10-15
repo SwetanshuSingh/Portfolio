@@ -2,7 +2,7 @@ import "../styles/Home.css"
 
 export default function Home(){
     return(
-        <section className="Home">
+        <section className="Home" id="home">
             <div className="main">
                 <div className="main-text-area">
                     <h1>Front-End <br/> Developer</h1>

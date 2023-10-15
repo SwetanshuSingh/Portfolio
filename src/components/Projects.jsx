@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 
 export default function Projects(){
     return (
-        <section className="Projects">
+        <section className="Projects" id="projects">
         <h4>Portfolio</h4>
         <h3>Marrying design aesthetics with web technology to produce captivating sites.</h3>
 
