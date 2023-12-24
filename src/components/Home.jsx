@@ -24,7 +24,7 @@ export default function Home(){
                 <img src="https://skillicons.dev/icons?i=html,css,js" />
                 </div>
                 <div className="skills-icon">
-                <img src="https://skillicons.dev/icons?i=react,tailwind" />
+                <img src="https://skillicons.dev/icons?i=react,tailwind,next" />
                 </div>
             </div>
         </section>

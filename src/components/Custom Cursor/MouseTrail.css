@@ -1,0 +1,100 @@
+/* YourComponent.css */
+
+body:hover #trailer{
+    opacity: 1;
+}
+  
+  .trailer {
+    height: 30px;
+    width: 30px;
+    background-color: #c5edd6;  
+    border-radius: 20px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 400ms ease;
+    display: grid;
+    place-items: center;
+  }
+
+  @media only screen and (max-width : 600px) {
+    .trailer{
+      display: none;
+    }
+  }
+    
+  .trailer.interacting {
+    opacity: 1;
+  }
+  
+  .trailer:not([data-type=""]) > #trailer-icon {
+    opacity: 1;
+  }
+  
+  #trailer-icon {
+    font-size: 6px;
+    line-height: 4px;
+    opacity: 0;
+    transition: opacity 400ms ease;
+  }
+  
+  .interactable {
+    /* aspect-ratio: 1 / 1.5;
+    width: clamp(120px, 40vmin, 600px);
+    background-position: center 50%;
+    background-size: 100%; */
+    /* opacity: 0.4; */
+    transition: background-size 400ms ease, opacity 400ms ease;
+  }
+  
+  .interactable:hover {
+    background-size: 105%;
+    cursor: none;
+    /* opacity: 0.8; */
+  }
+  
+  /* -- YouTube Link Styles -- */
+  
+  body.menu-toggled > .meta-link > span {
+    color: rgb(30, 30, 30);
+  }
+  
+  .meta-link {
+    align-items: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-flex;
+    gap: 5px;
+    left: 10px;
+    padding: 10px 20px;
+    position: fixed;
+    text-decoration: none;
+    transition: background-color 400ms, border-color 400ms;
+    z-index: 10000;
+  }
+  
+  .meta-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .meta-link > i,
+  .meta-link > span {
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  .meta-link > span {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  

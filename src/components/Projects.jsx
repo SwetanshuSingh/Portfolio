@@ -7,7 +7,7 @@ export default function Projects(){
         <h3>Marrying design aesthetics with web technology to produce captivating sites.</h3>
 
         <div className="project-one">
-            <div className="one-img-area">
+            <div className="one-img-area interactable">
                 <a href="https://comfy-malabi-bf07cb.netlify.app">
                     <img src="/images/project-one.jpg" alt="project-pic" />
                 </a>
@@ -24,8 +24,8 @@ export default function Projects(){
                 </div>
 
                 <div className="links">
-                    <a href="https://github.com/SwetanshuSingh/NOSTRA">Code <i class="ri-github-line"></i></a>
-                    <a href="https://comfy-malabi-bf07cb.netlify.app">Live Demo <i class="ri-external-link-line"></i></a>
+                    <a href="https://github.com/SwetanshuSingh/NOSTRA">Code <i className="ri-github-line"></i></a>
+                    <a href="https://comfy-malabi-bf07cb.netlify.app">Live Demo <i className="ri-external-link-line"></i></a>
                 </div>
             </div>
         </div>
